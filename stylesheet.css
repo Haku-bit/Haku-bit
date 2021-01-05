@@ -1,0 +1,220 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+img {
+  display:flex;
+  width:100%;
+  height:auto;
+}
+body {
+  margin:0 auto;
+  width:100%;
+  background-color: #DADADA;
+  font-family:"Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif, 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+#sidebar {
+  width:100%;
+  height:61px;
+  background-color: #DADADA;
+  z-index: 1px;
+  position:fixed;
+}
+#sidebarWrap img {
+  width:87px;
+  height:25px;
+  margin:0 auto;
+  padding: 20px 0px 20px 0px;
+}
+#mainnav a {
+  color: #000;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+.panel li{
+  display:none;
+}
+.panel li a {
+  text-decoration: none;
+}
+section h2{
+  font-size:22px;
+  text-align:center;
+  padding:0 0 20px 0;
+}
+.innerS {
+  line-height:200%;
+  font-size:14px;
+  padding:0 0 30px 0;
+  margin:0 6.5px;
+}
+.img img {
+  width:30%;
+  height:auto;
+  margin:0 auto;
+}
+.inner {
+  width:80%;
+  margin: 0 auto;
+  border-bottom:1.5px solid ;
+  padding-bottom:
+}
+.col4 p{
+  text-align:center;
+  font-size:14px;
+
+}
+#sec02 h2 {
+  display:none;
+}
+#sec03 {
+  margin-top:75px;
+}
+#sec03 .inner {
+  padding-bottom: 50px;
+}
+#sec04 {
+  margin-top:75px;
+}
+.col4 li {
+  margin-top:30px;
+}
+.img {
+  margin:0 auto;
+  box-sizing:content-box;
+}
+.article {
+  margin: 40px auto;
+}
+.article img {
+  width:95%;
+  margin:0 auto;
+}
+.article p{
+  padding-top:15px;
+  font-size:14px;
+  line-height:200%;
+}
+.col2 li {
+ padding: 40px 0 30px 0 ;
+}
+.col2 p {
+  line-height:200%;
+  font-size:14px;
+}
+.inner #sec05 {
+  border-bottom:none;
+}
+#map {
+  height:0;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+}
+#map iframe {
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+}
+footer {
+  font-size:12px;
+  text-align:center;
+  padding:150px 0 120px 0;
+}
