@@ -1,0 +1,79 @@
+@media all and (min-width: 640px ) {
+  /* 画面サイズが640px以上からはここを読み込む */
+  body {
+    width:80%;
+    float: left;
+  }
+  #sidebar {
+    width:20%;
+    margin-left: 80%;
+    height:100%;
+    border: none;
+    z-index: 1px;
+    position:fixed;
+  }
+  .panel {
+    margin-top:50px;
+  }
+  .panel li {
+    display: block;
+    margin: 0 40px;
+    padding: 20px 0px 20px 0px;
+    font-size:14px;
+  }
+  #id li {
+    width:30px;
+    height:49px;
+    display:flex;
+    flex-wrap:auto;
+  }
+  #id img {
+    width:30px;
+    height:49px;
+  }
+  #sec01 {
+    width:50%;
+    margin:0 auto;
+    padding:40px 0 40px;
+  }
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #gallery li {
+    flex:auto;
+    width:calc((100% - 1em )/3);
+  }
+  #gallery li.full{
+	width: 100%;
+}
+.col4 {
+  display:flex;
+  line-height: 200%;
+  text-align: left;
+}
+.col4 li{
+  margin:0 15px 0 15px;
+}
+.col4 img {
+  width:100%;
+}
+.col4 p {
+  text-align: left;
+}
+.article img{
+  width:370px;
+  height: 224px;
+  margin: 10px 20px 10px ;
+  float: left;
+}
+.col2 li {
+  display: inline;
+}
+#map iframe {
+  width:370px;
+  height:224px;
+}
+
+
+}
